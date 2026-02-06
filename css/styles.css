@@ -1,15 +1,71 @@
+/*   font-family: "Raleway", sans-serif;
+font-family: "Roboto", sans-serif; */
+
 body {
-  color: #2a2a2a;
-  background-color: white;
+  color: #434455;
+  background-color: #fff;
   font-family: 'Roboto', sans-serif;
 }
-.menu > li {
-  color: var;
-  background-color: white;
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.header-logo .logo-light {
+  color: #2e2f42;
+}
+.logo-dark {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+  font-family:
+    'Roboto',
+    'Raleway' sans-serif;
+}
+
+.menu-nav-link {
   font-weight: 500;
   font-size: 16px;
-  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
+
+.contact {
+  font-style: normal;
+}
+.contact-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.menu-nav-link:hover,
+.menu-nav-link:focus,
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
+
 .service {
   background: #2e2f42;
 }
@@ -31,4 +87,27 @@ button {
   color: #fff;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
+}
+
+.advantages {
+  padding: 20px 0;
+}
+
+.advantages .features-list {
+  padding-left: 50px;
+  list-style-type: none;
+}
+.advantages .features-list .features-item {
+  letter-spacing: 0.02em;
+}
+.advantages .features-list .features-item p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+.advantages .features-list .features-item h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
