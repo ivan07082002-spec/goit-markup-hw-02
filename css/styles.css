@@ -116,7 +116,7 @@ button {
   letter-spacing: 0.02em;
 }
 .team {
-  background: #f4f4fd;
+  background-color: #f4f4fd;
 }
 .team-title {
   font-size: 36px;
@@ -167,6 +167,19 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+}
+
+.portfolio {
+  background: #fff;
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
 
 footer {
