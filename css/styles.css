@@ -81,22 +81,14 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
 }
 
 .button:hover,
 .button:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
-.advantages {
-  padding: 20px 0;
-}
-
-.advantages .features-list {
-  padding-left: 50px;
-}
 .advantages,
 .features-list,
 .features-item {
@@ -131,10 +123,6 @@ a {
 }
 
 .team-item {
-  box-shadow:
-    0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16),
-    0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
 }
 
@@ -147,14 +135,6 @@ a {
   color: #2e2f42;
 }
 
-.team-image {
-  display: block;
-  width: 100%;
-}
-.team-image-wrapper {
-  width: 264px;
-  height: 260px;
-}
 .team-title-text {
   font-weight: 500;
   font-size: 20px;
@@ -184,11 +164,6 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-}
-
-.portfolio-image-wrapper {
-  width: 360px;
-  height: 300px;
 }
 
 .portfolio-titke-text {
