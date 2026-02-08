@@ -26,9 +26,7 @@ a {
 .header-logo .logo-light {
   color: #2e2f42;
 }
-.footer-logo .logo-light {
-  color: #f4f4fd;
-}
+
 .logo-dark {
   font-weight: 700;
   font-size: 18px;
@@ -87,8 +85,8 @@ button {
   background-color: #4d5ae5;
 }
 
-.button:hover,
-:focus {
+.button :hover,
+.button :focus {
   background-color: #404bbf;
 }
 
@@ -216,6 +214,10 @@ button {
 footer {
   background-color: #2e2f42;
 }
+.footer-logo .logo-light {
+  color: #f4f4fd;
+}
+
 .footer-text {
   font-weight: 400;
   font-size: 16px;
